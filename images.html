@@ -8,9 +8,19 @@
 <body>
     <!-- <img src="street.png" width="1024px" height="1024px" alt="No image"> -->
     <!-- <img src="./street.png" width="1024px" height="1024px" alt="No image"> -->
-<picture>
-    <source srcset="./street.png">
+<picture>    
+    <source media="(min-width: 460px)" srcset="./future-city.png">
+    <img src="./street.png" alt="">
 </picture>
+
+<script>
+    function one () {
+        alert("You clicked on the one");
+    }
+    function two () {
+        alert("You clicked on the two");
+    }
+</script>
 
 </body>
 </html>
