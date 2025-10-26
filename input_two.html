@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input two</title>
+    <style>
+        body {            
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>forms in html</h1>
+    <form action="url" method="GET" accept-charset="utf-8" autocomplete="on" enctype="multipart/form-data">
+        <label for="fname">First Name:</label>        
+        <input type="text" placeholder="First Name" name="" id="fname"></br>
+        
+        <input type="reset" value="Reset"></br>
+        <input type="password" name="password" id="">
+        <input type="week" name="" id="">
+
+        <select name="editors" id="" multiple>
+            <option value="vscode">Visual Studio Code</option>
+            <option value="sublime">Sublime Text</option>
+            <option value="notepad++">Notepad++</option>
+        </select>
+
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">
+            <option value="sublime">
+            <option value="notepad++">
+        </datalist>
+
+        <input type="hidden" name=" ">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
